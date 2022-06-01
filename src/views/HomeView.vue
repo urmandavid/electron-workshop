@@ -17,18 +17,19 @@
 			<div>{{ todo.description }}</div>
 			<div class="min-width-max-content">
 				<button class="btn btn-sm btn-primary mx-2">Done</button>
-				<button class="btn btn-sm btn-secondary">@click="remove(todo.id)">Remove</button>
+				<button class="btn btn-sm btn-secondary" @click="remove(todo.id)">Remove</button>
 			</div>
 		</div>
 	</div>
-	<!--<main>
+	<!-- <main>
 		<ElectronApi />
-	</main>-->
+	</main> -->
 </template>
 
 <script>
 import { mapStores } from "pinia"
 import { useTodoStore } from "@/stores/todo.js"
+import AddTodoButton from "../components/AddTodoButton.vue"
 export default {
 	name: "HomeView",
 	computed: {
