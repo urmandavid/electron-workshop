@@ -28,6 +28,11 @@ npm run dev
 npm run build
 ```
 
+### Start Electron
+```sh
+npm run electron:start
+```
+
 ### Package .exe with Electron forge
 
 ```sh
