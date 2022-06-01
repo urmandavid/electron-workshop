@@ -5,7 +5,7 @@
 <template>
 	<div class="my-2 d-flex justify-content-between">
 		<div>
-			<button class="btn btn-secondary" @click="open">Open</button>
+			<button class="btn btn-secondary mr-1" @click="open">Open</button>
 			<button class="btn btn-secondary" @click="save">Save</button>
 		</div>
 
