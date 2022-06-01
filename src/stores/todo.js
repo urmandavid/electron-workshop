@@ -1,4 +1,5 @@
 import { defineStore } from "pinia"
+import uuid4 from "uuid4"
 
 export const useTodoStore = defineStore({
 	id: "todo",

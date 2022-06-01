@@ -44,7 +44,8 @@ function createWindow() {
 	})
 
 	//DevTools for Electron
-	win.webContents.openDevTools()
+	//add an "if" for opening DevTools
+	//win.webContents.openDevTools()
 
 	// we go to dist/index.html, the production ready version of our
 	// Vue application
