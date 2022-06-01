@@ -28,6 +28,12 @@ npm run dev
 npm run build
 ```
 
+### Package .exe with Electron forge
+
+```sh
+npm run package
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
